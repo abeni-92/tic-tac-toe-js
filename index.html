@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+	<title>Tic Tac Toe</title>
+</head>
+<body>
+	<div class="display">					
+		<h2>Tic Tac Toe</h2>	
+		<select name="play-mode" id="play-mode">
+			<option value="" selected disabled>Select Game Mode</option>
+			<option value="single-player">SinglePlayer</option>
+			<option value="two-player">TwoPlayers</option>
+		</select>
+		<p class="game-mode hidden"></p>
+		<p class="turn"></p>
+		<div class="board">
+			<!-- <div class="btns">
+				<button id="x" class="btn">X</button>
+				<button id="o" class="btn">O</button>
+			</div> -->
+			<div class="grid-container">
+				<div class="card" data-id="0"><p></p></div>
+				<div class="card" data-id="1"><p></p></div>
+				<div class="card" data-id="2"><p></p></div>
+				<div class="card" data-id="3"><p></p></div>
+				<div class="card" data-id="4"><p></p></div>
+				<div class="card" data-id="5"><p></p></div>
+				<div class="card" data-id="6"><p></p></div>
+				<div class="card" data-id="7"><p></p></div>
+				<div class="card" data-id="8"><p></p></div> 
+			</div>
+		</div>
+		<button type="reset" id="restart">Restart</button>
+	</div>
+</body>
+</html>
