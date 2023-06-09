@@ -91,6 +91,11 @@ button:hover {
 	font-size: 1.5rem;
 	color: white;
 }
+.message {
+	font-size: 2.2rem;
+	color: aliceblue;
+	margin-bottom: 15px;
+}
 p{
 	color: white;
 	font-size: 1.5rem;
